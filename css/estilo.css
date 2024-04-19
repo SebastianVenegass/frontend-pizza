@@ -145,6 +145,7 @@ h1,h2,h3,h4,h5{
 .banner{
     margin-top:-52px;
     position: relative;
+	
 }
 .banner:before {
     content: '';
@@ -157,8 +158,8 @@ h1,h2,h3,h4,h5{
 }
 .banner__img{
     width: 100%;
-    height: 400px;
-    object-fit: cover
+    height: 500px;
+    object-fit: cover;
 }
 .banner__content {
     width: 70%;
@@ -172,6 +173,10 @@ h1,h2,h3,h4,h5{
     font-size: 1.5em;
     font-weight:bold;
     
+}
+
+.banner__content h1{
+	font-size: 100px;
 }
 
 /*----------------Estilos Principales------------------*/
@@ -192,6 +197,7 @@ h1,h2,h3,h4,h5{
 }
 .main__about_description .column:nth-child(2){
 	padding: 10px;
+	margin: left auto;
 }
 .btn{
 	
@@ -396,4 +402,20 @@ h1,h2,h3,h4,h5{
 	font-size: 2.2em;
 	
 	}
+
+}
+
+.column__title{
+	font-size: 25px;
+}
+
+.texto-img{
+	font-size: 20px;
+}
+
+
+/*Estilo de imagenes index*/ 
+
+.pizza-imagen{
+	padding: 10px;
 }
